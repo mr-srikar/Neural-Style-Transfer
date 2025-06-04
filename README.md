@@ -1,7 +1,33 @@
-**Neural Style Transfer — TensorFlow Implementation**
-This project demonstrates a deep learning application called Neural Style Transfer, where the content of one image is blended with the artistic style of another image to create a unique, stylized result. This implementation is built using TensorFlow, TensorFlow Hub, and computer vision libraries like OpenCV and Matplotlib in a Jupyter Notebook format.
+# 🎨 Neural Style Transfer — TensorFlow Implementation
 
-The model used here is the arbitrary-image-stylization-v1-256 from TensorFlow Hub, which enables fast and high-quality style transfer on any image pair. The notebook walks through loading and preprocessing the content and style images, applying the style transfer model, and finally saving the generated output. It also includes helper functions for resizing, displaying, and converting images from tensor format.
+This project showcases **Neural Style Transfer**, a deep learning technique that blends the content of one image with the artistic style of another. The result is a unique, stylized image.
 
-Users can easily replace the provided images with their own content and style images to experiment. The final stylized image is saved in the images/ directory for reuse. This project serves as an excellent introduction to working with pre-trained vision models and TensorFlow Hub, and can be extended to include features like image sliders, batch processing, or even integration into a web app using Streamlit or Flask.
+## 🧠 Technologies Used
+- **TensorFlow** and **TensorFlow Hub**
+- **OpenCV** and **Matplotlib**
+- Implemented in **Jupyter Notebook**
 
+## 📌 Model
+Uses [`arbitrary-image-stylization-v1-256`](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2), a TensorFlow Hub model for fast and high-quality style transfer between arbitrary images.
+
+## 🚧 Features
+- Load and preprocess **content** and **style** images
+- Apply **style transfer** using the model
+- Save the **stylized output**
+- Utility functions for:
+  - Resizing images
+  - Displaying results
+  - Converting tensors to image format
+
+## 🔄 Customization
+- Swap in your own content/style images with ease
+- Stylized outputs are saved to the `images/` directory
+
+## 🚀 Potential Extensions
+- Add interactive image sliders
+- Enable batch processing
+- Integrate with web frameworks like **Streamlit** or **Flask**
+
+---
+
+> 💡 This project is a great starting point for exploring **pre-trained computer vision models** and building creative AI tools with **TensorFlow Hub**.
